@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Plain Charisma: 28 days</title>
+<meta name="description" content="One short, research-checked lesson a day on charisma skills.">
+<meta name="theme-color" content="#ffffff">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Plain Charisma">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="top">
+  <div class="top-row">
+    <div id="counter" aria-live="polite">Day 1 of 28</div>
+    <button id="contentsBtn" type="button" aria-expanded="false" aria-controls="contents">Contents</button>
+  </div>
+  <div id="ticks" aria-hidden="true"></div>
+</header>
+
+<nav id="contents" hidden aria-label="Contents"></nav>
+
+<main id="stage" aria-live="off"></main>
+
+<div id="hint" hidden>
+  <p><strong>Tap the right side</strong> of the screen for the next day, the <strong>left side</strong> for the previous. Or swipe. The buttons below work too.</p>
+  <button id="hintClose" type="button">Got it</button>
+</div>
+
+<footer id="bar">
+  <button id="prevBtn" type="button">← Previous</button>
+  <button id="nextBtn" type="button">Next →</button>
+</footer>
+
+<noscript><p style="padding:24px">This app needs JavaScript.</p></noscript>
+
+<script src="data/week1.js"></script>
+<script src="data/week2.js"></script>
+<script src="data/week3.js"></script>
+<script src="data/week4.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
